@@ -1,0 +1,101 @@
+form
+{
+    background-color: white;
+    max-width: 55%;
+    margin: 50px auto;
+    padding: 20px 20px;
+}
+body
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: whitesmoke;
+}
+.required
+{
+    color: red;
+}
+.adName
+{
+    margin: 10px 0px;
+}
+.mail
+{
+    margin: 10px 0px;
+}
+#name,#lname
+{
+    width: 25%;
+}
+/* #lname
+{
+    width: 15%;
+} */
+#email
+{
+    width:52%;
+}
+.checked
+{
+    color: lightsalmon;
+}
+.Star
+{
+    margin: 10px 0px;
+}
+/* .feed
+{
+    font-size: small;   // it's for text below 5 star
+} */
+table{
+    text-align: center;
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+}
+/* th,td
+{
+    padding: 5px;
+    text-align: center;
+} */
+/* #radio
+{
+   text-align: center;
+} */
+.Satisfication, .Referr
+{
+    width: 100%;
+    margin: 15px 0px;
+}
+.Fd
+{
+    margin: 10px 0px;
+}
+.Details
+{
+    text-align: left;
+    padding: 8px;
+    width:25%;
+}
+.Rr
+{
+    margin: 10px 0px;
+}
+tr:nth-child(even)
+{
+    background-color: lightgray;    /*for adding background color in the odd numbered rows inside the table*/
+}
+th, .RHeading
+{
+    font-size: small;
+}
+textarea
+{
+    margin: 5px 1px;
+    padding: 5px;
+    width: 98%;
+    height: 75px;
+}
+button
+{
+    padding: 10px;
+    opacity: 75%;
+}
